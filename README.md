@@ -2,7 +2,7 @@
 
 > Sistema SaaS de Gestão para Oficinas Mecânicas — desenvolvido por [Cabr@lves Tecnologia](https://cabralvestecnologia.com.br)
 
-![Login](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/login.png)
+![Login](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/login.png)
 
 ## 🚀 Sobre o Projeto
 
@@ -99,22 +99,22 @@ O **SISTEMA AUTO** é uma plataforma SaaS multi-tenant completa para gestão de 
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/Destboard.png)
+![Dashboard](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/dashboard.png)
 
 ### Ordens de Serviço
-![OS Lista](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/lista%20de%20OS.png)
+![OS Lista](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/os-lista.png)
 
 ### Detalhe da OS
-![OS Detalhe](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/Detales%20de%20OS.png)
+![OS Detalhe](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/os-detalhe.png)
 
 ### Estoque de Peças
-![Estoque](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/Estoque.png)
+![Estoque](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/estoque.png)
 
 ### Financeiro
-![Financeiro](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/Financeiro.png)
+![Financeiro](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/financeiro.png)
 
 ### Configurações
-![Configurações](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto/main/docs/screenshots/Configura%C3%A7oes.png)
+![Configurações](https://raw.githubusercontent.com/Rodolfo-Cabral-junior/sistema-auto-demo/main/docs/screenshots/configuracoes.png)
 
 ---
 
@@ -145,34 +145,6 @@ sistema-auto/
 │   └── Feature/              # 355+ testes PHPUnit
 └── database/
     └── migrations/           # 40+ migrations
-```
-
----
-
-## 🚀 Setup Local
-
-```bash
-# Clone o repositório
-git clone git@github.com:Rodolfo-Cabral-junior/sistema-auto.git
-cd sistema-auto
-
-# Instale as dependências
-composer install
-npm install
-
-# Configure o ambiente
-cp .env.example .env
-php artisan key:generate
-
-# Execute as migrations
-php artisan migrate
-
-# Build do frontend
-npm run build
-
-# Servidor de desenvolvimento
-php artisan serve
-npm run dev
 ```
 
 ---
